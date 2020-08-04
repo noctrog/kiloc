@@ -1,6 +1,6 @@
 kilo: kilo.c
 	gcc $^ -o $@
 
-.PHONY:
+.PHONY clean:
 clean: 
 	rm -rf kilo
