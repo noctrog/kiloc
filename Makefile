@@ -1,5 +1,5 @@
 kilo: kilo.c
-	gcc $^ -o $@
+	gcc -g $^ -o $@
 
 .PHONY clean:
 clean: 
